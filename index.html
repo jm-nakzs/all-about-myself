@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.navig{
+    background-color: gray;
+    display: flex;
+    padding: 20px;
+    
+    
+   
+}
+ .navig  ul li {
+    padding: 5px;
+    list-style-type: none;  
+    float: right;
+
+   
+}
+.navig ul li a{
+    text-decoration: none;
+   
+}
+.navig ul li a:hover{
+    background-color: gray;
+    
+    padding: 5px;
+}
+
+.main-content{
+    display: grid;
+    list-style: none;
+    grid-template-columns:  repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+}
+
+.papa{
+    
+    grid-column-start: 7;
+    grid-column-end: 10 ;
+    
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+.box1{
+   
+    grid-column-start: 1 ;
+    grid-column-end: 4;
+
+    grid-row-start: 2 ;
+    grid-row-end: 7;
+    
+}
+.box2{
+    
+    grid-column-start: 4 ;
+    grid-column-end: 7;
+    
+    grid-row-start: 2 ;
+    grid-row-end: 7;
+}
+.box3{
+    
+    grid-column-start: 10 ;
+    grid-column-end: 13;
+
+    grid-row-start: 2 ;
+    grid-row-end: 7;
+    
+}
+.box4{
+   
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+
+    grid-row-start: 7 ;
+    grid-row-end: 13;
+    
+    
+}
+.box5{
+    
+    grid-column-start: 9 ;
+    grid-column-end: 8;
+
+    grid-row-start: 7 ;
+    grid-row-end: 12;
+    height: 5vh;
+
+    
+    
+}
+
+.box7{
+    
+    grid-column-start: 10;
+    grid-column-end: 11;
+
+    grid-row-start: 7;
+    grid-row-end: 12;
+    
+    height: 2%;
+    
+}
+
+footer{
+    text-align: center;
+}
+</style>
+<body>
+    
+<header>
+    <nav class="navig">
+
+        <ul>
+            <h1>MY SELF</h1>
+            <li><a href="">Home</a></li>
+            <li><a href="">My Details</a></li>
+            <li><a href="">My Hobbies</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </nav> 
+</header>
+
+
+<article>
+    <section >
+
+        <table class="me">
+            <tr >
+                <td>
+                    <img style="height: 250px;" src="pic.jpg" alt="">
+                    
+                    
+                </td>
+
+                <td style="text-align: center;">
+                    <h5>Hi, im John Michael Nakila! </h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, nihil quas tenetur fuga eligendi cupiditate velit voluptates quia quam dolores placeat debitis incidunt necessitatibus culpa eius commodi, quis ratione. Minus!</p>
+
+
+                </td>
+            </tr>
+        </table>
+
+    </section>
+
+</article>
+<hr>
+
+<br>
+<br>
+<br>
+<h2 style="text-align: center;">Team Dancer</h2>
+<br>
+
+
+
+    <div class="main-content">
+        
+        <li class="papa"><img style="border-radius: 20px;" height="275px" src="tampos.jpg" alt=""></li>
+        <li class="box1"><img style="border-radius: 20px;" height="200px" src="peter.jpg" alt=""></li>
+        <li class="box2"><img style="border-radius: 20px;" height="250px" src="renz.jpg" alt=""></li>
+        <li class="box3"><img style="border-radius: 20px;" height="250px" src="jay.jpg" alt=""></li>
+        <li class="box4"><img style="border-radius: 20px;" height="200px" src="namoca.jpg" alt=""></li>
+        <li class="box5"><img style="border-radius: 20px;" height="210px" src="brian.jpg" alt=""></li>
+       
+        <li class="box7"><img style="border-radius: 20px;" height="250px" src="pic.jpg" alt=""></li>
+
+    </div>
+
+ </div>
+
+
+<footer>
+    <hr>
+
+    <a href="">Contact Us</a>
+    <p>09123456789</p>
+   
+</footer>
+
+</body>
+</html>
